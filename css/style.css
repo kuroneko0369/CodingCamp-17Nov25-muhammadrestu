@@ -92,4 +92,52 @@ footer {
     background: #fff;
 }
 
-responsive
+/* responsive */
+
+/* tablet */
+@media (max-width: 900px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+    .nav-links {
+        gap: 12px;
+    }
+    .hero-img {
+        height: 280px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+
+    /* nav */
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* hero */
+    .hero-img {
+        width: 95%;
+        height: 220px;
+        font-size: 18px;
+    }
+
+    /* am */
+    .am-list {
+        gap: 30px;
+    }
+    .circle {
+        width: 90px;
+        height: 90px;
+        font-size: 12px;
+    }
