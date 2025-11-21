@@ -13,6 +13,8 @@ if (window.location.pathname.endsWith("index.html") || window.location.pathname 
 
         if (welcomeText) {
             welcomeText.textContent = userName || "Guest";
+        }else if (condition2) {
+          welcomeText.textContent = "Yessi" || "Sayangg";
         }
     };
 }
