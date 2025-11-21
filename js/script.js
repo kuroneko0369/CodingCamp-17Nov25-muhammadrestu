@@ -30,7 +30,7 @@ document.getElementById("messageForm").addEventListener("submit", function (e) {
     const name = document.getElementById("name").value;
     const dob = document.getElementById("dob").value;
     const gender = document.querySelector("input[name=gender]:checked").value;
-    const msg = document.getElementById("messageText").value;
+    const msg = document.getElementById("msgtext").value;
 
     const now = new Date().toString();
 
