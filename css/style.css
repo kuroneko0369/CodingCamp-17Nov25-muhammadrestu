@@ -35,7 +35,7 @@
 }
 
 footer {
-  float: border-bottom;
+  align-content: bottom;
   text-align: center;
   padding: 15px;
   border-top: 1px solid #ccc;
