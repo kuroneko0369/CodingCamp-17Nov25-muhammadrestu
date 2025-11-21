@@ -40,3 +40,21 @@ footer {
   border-top: 1px solid #ccc;
   background:#ffff;
 }
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-img {
+    margin: 30px auto 0;
+    width: 80%;
+    max-width: 900px;
+    height: 350px;
+    border: 2px dashed #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 24px;
+}
