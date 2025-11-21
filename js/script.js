@@ -1,4 +1,4 @@
-// window.onload = function () {
+Nameoad = function () {
 //     const userName = prompt("Masukkan nama kamu:");
 //     const welcomeText = document.getElementById("welcomeText");
 
