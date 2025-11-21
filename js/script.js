@@ -11,7 +11,7 @@
 // Welcome popup jadul tapi manjur
 window.onload = function () {
     const userName = prompt("Masukkan nama kamu:");
-    const welcomeText = document.getElementById("welcome-name");
+    const welcomeText = document.getElementById("welcomeText");
 
     // Kalau user cancel / kosong → fallback
     welcomeText.textContent = userName || "Tamu";
