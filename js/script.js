@@ -36,9 +36,9 @@ document.getElementById("messageForm").addEventListener("submit", function (e) {
 
     document.getElementById("resultBox").innerHTML = `
         <p><strong>Current Time:</strong><br>${now}</p>
-        <p><strong>Nama:</strong> ${name}</p>
-        <p><strong>Tanggal Lahir:</strong> ${dob}</p>
-        <p><strong>Jenis Kelamin:</strong> ${gender}</p>
-        <p><strong>Pesan:</strong> ${msg}</p>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Birth:</strong> ${dob}</p>
+        <p><strong>Gender Kelamin:</strong> ${gender}</p>
+        <p><strong>Message:</strong> ${msg}</p>
     `;
 });
