@@ -23,3 +23,22 @@
         }
     };
 // }
+
+document.getElementById("messageForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const dob = document.getElementById("dob").value;
+    const gender = document.querySelector("input[name=gender]:checked").value;
+    const msg = document.getElementById("messageText").value;
+
+    const now = new Date().toString();
+
+    document.getElementById("resultBox").innerHTML = `
+        <p><strong>Current Time:</strong><br>${now}</p>
+        <p><strong>Nama:</strong> ${name}</p>
+        <p><strong>Tanggal Lahir:</strong> ${dob}</p>
+        <p><strong>Jenis Kelamin:</strong> ${gender}</p>
+        <p><strong>Pesan:</strong> ${msg}</p>
+    `;
+});
