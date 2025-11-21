@@ -2,121 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website Replica</title>
-    
-    <!-- CSS STYLING GOES HERE:
-         This section was removed. You need to add the CSS rules
-         to a separate file (e.g., style.css) and link it, or place
-         them back into a <style> block here for the mockup to look correct.
-    -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A new web page">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+    <style>
+        /* Minimal CSS Reset */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, sans-serif; background: #fafbfc; color: #222; min-height: 100vh; line-height: 1.6; }
+    </style>
 </head>
 <body>
-
-    <div class="site-container">
-
-        <!-- 1. Header/Nav Bar -->
-        <header class="header">
-            <div class="logo-box">
-                <!-- A small yellow indicator from the mockup -->
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="12" height="12" rx="2" fill="#FFC107"/>
-                </svg>
-                My Website <span>www.mysitehere.com</span>
-            </div>
-            
-            <nav class="nav">
-                <ul>
-                    <!-- Search Input Mimic -->
-                    <li style="border: none; padding: 0 10px 0 0;">
-                        <input type="text" placeholder="Search" style="border: 1px solid black; padding: 4px; font-size: 12px; width: 80px;">
-                    </li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li style="background-color: black; color: white;"><a href="#" style="color: white;">Message Us</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- 2. Hero/Introduction Section -->
-        <section class="hero">
-            <h1>Hi Harfi, Welcome To Website</h1>
-            <p>We stand ready to assist your digital journey.</p>
-            <div style="border: 1px solid black; padding: 100px 20px; text-align: center; color: #aaa;">
-                1000 x 475 (Placeholder for main image/banner)
-            </div>
-        </section>
-
-        <!-- 3. Headquarters Section -->
-        <section class="section">
-            <h2>Our Headquarter</h2>
-            <div class="headquarters-list">
-                <div class="hq-item">
-                    <div class="hq-circle"></div>
-                    <span>Jakarta</span>
-                </div>
-                <div class="hq-item">
-                    <div class="hq-circle"></div>
-                    <span>Bandung</span>
-                </div>
-                <div class="hq-item">
-                    <div class="hq-circle"></div>
-                    <span>Surabaya</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- 4. Message Us Section (Form) -->
-        <section class="section">
-            <h2>Message Us</h2>
-            <div class="message-content">
-                
-                <!-- Left: Form Area -->
-                <div class="form-area">
-                    <form onsubmit="handleFormSubmit(event)">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-
-                <!-- Right: Info/Status Area -->
-                <div class="info-area">
-                    <h3>Current Status</h3>
-                    <p><strong>Current Date:</strong> <span id="current-date"></span></p>
-                    <p><strong>Current Time:</strong> <span id="current-time"></span></p>
-                    <p><strong>Location:</strong> Bandung, West Java, Indonesia</p>
-                    <p style="margin-top: 15px; font-size: 0.8em; color: #555;">(Info box mimics the framed design in the mockup.)</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 5. Footer -->
-        <footer class="footer">
-            Created by Harfi
-        </footer>
-
-    </div>
-
-    <!-- Custom Message Box (Replaces alert()) -->
-    <div id="message-box" class="message-box" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: black; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;"></div>
-
-    <!-- JAVASCRIPT LOGIC GOES HERE:
-         This section was removed. The functionality for date/time updates and
-         form submission handlers will not work until you link the necessary
-         JavaScript code.
-    -->
+        
 </body>
 </html>
-
