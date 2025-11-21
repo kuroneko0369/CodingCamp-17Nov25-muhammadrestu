@@ -142,3 +142,48 @@ footer {
         height: 90px;
         font-size: 12px;
     }
+}
+
+/* buat message */
+.message {
+    padding: 40px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.msg-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+form {
+    flex: 1;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.msg-result {
+    flex: 1;
+    min-width: 260px;
+    border: 1px solid #aaa;
+    padding: 15px;
+    background: #fff;
+}
