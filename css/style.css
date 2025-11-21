@@ -4,7 +4,6 @@
   object-fit: contain;
 }
 
-.nav {
+.nav li {
   display:flex ;
-  
 }
