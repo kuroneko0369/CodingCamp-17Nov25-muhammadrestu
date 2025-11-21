@@ -41,4 +41,4 @@ document.getElementById("messageForm").addEventListener("submit", function (e) {
         <p><strong>Gender:</strong> ${gender}</p>
         <p><strong>Message:</strong> ${msg}</p>
     `;
-});
+}); 
