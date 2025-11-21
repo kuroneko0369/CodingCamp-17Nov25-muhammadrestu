@@ -6,7 +6,7 @@
 //     welcomeText.textContent = userName || "Tamu";
 // };
 
-// if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
+if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
 
     window.onload = function () {
         let userName = prompt("Insert Your Name:");
@@ -22,7 +22,7 @@
             welcomeText.textContent = userName || "Guest";
         }
     };
-// }
+}
 
 document.getElementById("messageForm").addEventListener("submit", function (e) {
     e.preventDefault();
