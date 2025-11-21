@@ -56,10 +56,10 @@ footer {
 }
 
 .hero-img{
-    background-image: url('../assets/hero.jpg'); /* atau path lain */
+    background-image: url('../assets/hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 60vh; /* tinggi hero */
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
