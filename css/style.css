@@ -2,7 +2,9 @@
     margin: 0;
     font-family: Arial, sans-serif;
     background: #fafafa;
-    min-height: ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* navbar */
