@@ -98,6 +98,7 @@ footer {
 @media (max-width: 900px) {
     .navbar {
         padding: 15px 20px;
+        float: center;
     }
     .nav-links {
         gap: 12px;
