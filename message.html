@@ -32,6 +32,34 @@
     </div>
   </section>
   
+  <section class="message">
+    <h2>Message Us</h2>
+
+    <div class="msg-container">
+        <form id="messageForm">
+            <label>Nama</label>
+            <input type="text" id="name" required>
+
+            <label>Tanggal Lahir</label>
+            <input type="date" id="dob" required>
+
+            <label>Jenis Kelamin</label>
+            <div class="gender">
+                <label><input type="radio" name="gender" value="Laki-laki" required> Laki-laki</label>
+                <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+            </div>
+
+            <label>Pesan</label>
+            <textarea id="messageText" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="msg-result" id="resultBox">
+            <p>Data akan tampil di sini...</p>
+        </div>
+    </div>
+  </section>
   </main>
   <footer>
         © 2025 By Restu. Semua hak dilindungi undang-undang (katanya).
