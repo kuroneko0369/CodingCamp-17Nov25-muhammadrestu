@@ -1,8 +1,32 @@
-.photo {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
 }
-.nav {
-  float: right;
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
 }
